@@ -64,3 +64,30 @@ V2rayNG/app/google-services.json
 # Ignore OS-specific files
 Thumbs.db
 .DS_Store
+
+# Lumina local ignores
+.DS_Store
+
+# Android / Gradle build outputs
+.gradle/
+**/build/
+**/.cxx/
+**/captures/
+local.properties
+
+# APK / release artifacts
+*.apk
+*.aab
+*.apks
+*.idsig
+
+# Downloaded/generated native libs and aar
+V2rayNG/app/libs/
+libs/
+
+# IDE
+.idea/
+.vscode/
+
+# logs
+*.log
