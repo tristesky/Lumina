@@ -91,3 +91,6 @@ libs/
 
 # logs
 *.log
+
+# Gradle local daemon config
+**/gradle-daemon-jvm.properties
